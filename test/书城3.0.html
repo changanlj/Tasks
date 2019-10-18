@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>书城3.0</title>
+<style type="text/css">
+	#direction
+	#logo{
+			text-align:left;
+			color:#0C0;
+			font-size:70px;
+			font-family:"楷体";
+			margin-top:0px;
+			float:left;}
+	#mune{
+			margin-left:270px;
+			margin-right:100px;
+			margin-top:30px;
+			border-style:double;
+			border-width:thin;
+			border-color:#6CF;
+			padding-left:15px;
+			padding-right:15px;
+			font-size:25px;
+			float:left;}
+	#mune,#mune li ul{
+		list-style-type:none;}
+	#mune li{
+		float:left;
+		text-align:center;
+		position:relative;}
+	#mune li a:link,#mune li a:visited{
+		display:block;
+		text-decoration:none;}		
+	#mune a:link{color:#6CF;}
+	#mune a:hover{color:#03F;}
+	#mune a:active{color:#03F;}
+	#mune a:visited{color:#03F;}
+	
+	#login{
+		magin-right:30px;
+		magin-top:50px;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:45px;
+		font-family:"黑体";
+		font-size:20px;
+		color:#666;
+		float:right;
+		}
+	#login a:link{color:#666;}
+	#login a:hover{color:#000;}
+	#login a:active{color:#000;}
+	#login a:visited{color:#000;}
+		
+	#research{
+		text-align:left;
+		margin-top:95px;
+		margin-left:5px;
+		background-color:#630	
+	}
+	#zhoudianji{
+		background-color:#663;
+		text-align:left;
+		font-family:"黑体";
+		font-size:16px;
+		magin-right:100px;
+		padding-right:10px;	
+		border-style:groove;
+		border-color:#FFF;
+		float:left;
+	}
+	#zhougengxin{
+		background-color:#663;
+		text-align:right;
+		font-family:"黑体";
+		font-size:16px;
+		magin-left:100px;
+		padding-left:10px;	
+		border-style:groove;
+		border-color:#FFF;
+		float:right;
+		}
+	#tuijiantushu{
+		background-color:#6C0;
+		text-align:center;
+		font-family:"黑体";
+		font-size:16px;
+		magin-left:200px;
+		magin-right:200px;	
+		padding-left:inherit;
+		padding-right:inherit;
+		border-style:groove;
+		border-color:#FFF;		
+		}
+	#tuijiantushu.ipg{
+		width:130px;
+		height:300px;
+		}
+	#tuijiantushu.pro{
+		text-align:center;
+		font-family:"黑体";
+		font-size:16px;
+		}
+</style>
+</head>
+<body>
+<div id="direction" style="background-color:#330;">
+  <p><span id="logo">书城</span>
+  <span id="mune">
+     	<a href="">玄幻&nbsp;&nbsp;</a>
+        <a href="">耽美&nbsp;&nbsp;</a>
+  		<a href="">仙侠&nbsp;&nbsp;</a>
+        <a href="">星际&nbsp;&nbsp;</a>
+        <a href="">现言&nbsp;&nbsp;</a>
+        <a href="">古言&nbsp;&nbsp;</a>
+        <a href="">军旅&nbsp;&nbsp;</a>
+        <a href="">穿越&nbsp;&nbsp;</a>
+        <a href="">同人&nbsp;&nbsp;</a>
+        <a href="">名著&nbsp;&nbsp;</a>
+        
+        
+  </span>
+ <span id="login">
+ 	<a href="file:///C:/lanjun3034/test/登录界面1.0.html">登录</a>
+    <a href="file:///C:/lanjun3034/test/注册界面1.0.html">注册</a>
+  </span>
+ </p>
+</div>
+<br />
+<div id="research">
+<p><form name="research" method="get" action="">
+搜索:<input type="text" name="research" value="请输入书名/作者" color="#666" onfocus="if(this.value=='请输入书名/作者'){this.value='';this.style.color='#000';}" onblur="if(this.value==''){this.value='请输入书名/作者';this.style.color='#666';}" />
+<input type="radio" name="research" value="shuming" checked="checked" />书名
+<input type="radio" name="research" value="zuozhe" checked="checked" />作者
+&nbsp;&nbsp;<input type="submit" name="research" value="搜索" />
+</form>
+</p>
+</div> 
+<div id="zhoudianji">
+<p><strong>周点击排行榜</strong></p>
+<hr />
+    <ul>
+    	<li>《撒野》</li>
+        <li>《哎，我刀呢》</li>
+        <li>《风骨》</li>
+        <li>《斗罗大陆》</li>
+        <li>《斗破苍穹》</li>
+    </ul>
+ </div>
+<div id="zhougengxin">
+<p><strong>周更新排行榜</strong></p> 
+<hr />
+ <ul>
+    	<li>《撒野》</li>
+        <li>《哎，我刀呢》</li>
+        <li>《风骨》</li>
+        <li>《斗罗大陆》</li>
+        <li>《斗破苍穹》</li>
+    </ul>
+</div>    
+<div id="tuijiantushu">
+<p><strong>推荐图书</strong></p>
+<hr />
+	<span id="tuijiantushujpg">
+	<img alt="" src="/images/这是本书.jpg"/>
+	</span>
+<br>
+	<span id="tuijiantushu.pro">
+    <a href="file:///C:/lanjun3034/test/这是本书.html">《这是本书》</a>
+    </span>    
+</div>
+</body>
+</html>
